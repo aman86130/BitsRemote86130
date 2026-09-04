@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+ 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-         https://maven.apache.org/xsd/maven-4.0.0.xsd">
-
+https://maven.apache.org/xsd/maven-4.0.0.xsd">
+ 
     <modelVersion>4.0.0</modelVersion>
-
+ 
     <groupId>com.bits</groupId>
-    <artifactId>BitsRemote86130</artifactId>
-    <version>1.0</version>
-
-    <properties>
-        <sonar.host.url>http://localhost:9000</sonar.host.url>
-    </properties>
-
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.sonarsource.scanner.maven</groupId>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.11.0.3922</version>
-        </plugin>
-    </plugins>
+<artifactId>BitsRemote86130</artifactId>
+<version>1.0</version>
+ 
+   <properties>
+<sonar.projectKey>BitsRemote86130</sonar.projectKey>
+<sonar.host.url>http://localhost:9000</sonar.host.url>
+<sonar.login>squ_1619a202d15d595368b9284562b593dadad78a5c</sonar.login>
+</properties>
+ 
+    <build>
+<plugins>
+<plugin>
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+<version>4.0.0.4121</version>
+</plugin>
+</plugins>
 </build>
-
+ 
 </project>
